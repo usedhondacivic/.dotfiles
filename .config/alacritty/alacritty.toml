@@ -1,0 +1,31 @@
+live_config_reload = true
+import = [
+    "~/.config/alacritty/themes/themes/catppuccin_mocha.toml"
+]
+
+[font]
+builtin_box_drawing = false
+size = 10 
+
+[font.bold]
+family = "JetBrainsMonoNerdFontMono"
+style  = "Bold"
+
+[font.bold_italic]
+family = "JetBrainsMonoNerdFontMono"
+style  = "BoldItalic"
+
+[font.italic]
+family = "JetBrainsMonoNerdFontMono"
+style  = "Italic"
+
+[font.normal]
+family = "JetBrainsMonoNerdFontMono"
+style  = "Medium"
+
+[window]
+decorations = "None"
+opacity = 0.9
+
+[colors.primary]
+background = "#000000"
